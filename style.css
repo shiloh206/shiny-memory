@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(81, 54, 54, 0.553);
+    margin: 0%;
+}
+
+header{
+    height: 100px;
+    text-align: end;
+}
+nav li {
+    display: inline-block;
+    width: center;
+}
+
+#top-section {
+    border: 5x solid grey;
+    max-width: 40%;
+    float:right
+}
+
+#top-section img{
+    border-radius: 50%;
+    width: 100%;
+
+}
+
+.lower-section{
+    border: 7x solid grey;
+    max-width: 30%;
+    display: inline-block;
+    align-items:center;
+
+}
+.lower-section img{
+    max-width: 100%;
+    display: ;
+}
+
+h1{
+    float: center
+
+}
