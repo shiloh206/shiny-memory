@@ -1,5 +1,4 @@
-let max737 
-let button2
+let button
 
 function welcome() {
   alert("Warning! The following might give you a new phobia.")
@@ -11,9 +10,22 @@ function welcome() {
 
 console.log(welcome())
 
+function getName (){
+    let userName = prompt("What is your name");
+    if (userName == "" || userName == null || userName == undefined){
+        alert("try Again");
+        getName();
+
+    } else {
+        document.write("Hey " + userName + ", Welcome to my Page")
+    }
+}
+
+getName();
 
 
-max737 = document.getElementById("max737").addEventListener("click", function() {
+
+button = document.getElementById("max737").addEventListener("click", function() {
   alert("Boeing 737 MAX was announced in 2011 in competition with Norwegian jets. 3000 planes sold to American and foreign airlines. But it wasn't manufactured until 2015. First patch of planes were delieverd to airlines in late 2017.")
 })
 
