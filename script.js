@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 let button
+=======
+let max737 
+>>>>>>> c6a89ce197ed786e942974422d0156ffa3ca8c8a
 
 function welcome() {
   alert("Warning! The following might give you a new phobia.")
