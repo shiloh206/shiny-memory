@@ -1,5 +1,4 @@
 let max737 
-let button2
 
 function welcome() {
   alert("Warning! The following might give you a new phobia.")
