@@ -42,7 +42,9 @@ h1{
 }
 
 .plane img{
-    display: inline;
-    width:20px;
+    display: inline-block;
+    
+
+    
 
 }

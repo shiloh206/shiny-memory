@@ -44,7 +44,7 @@ function planes(){
       planes = prompt("Bad entry. (1-100 planes)")
   }
   for (let i = 0; i < planes; i++) {
-      document.write("<img src='plane.jpg'></img>")
-      document.write(i+1)
+      document.write("<img src='plane.jpg'height = '30px' width = '30px'></img>")
+      document.write(i+1) 
   }
 }
