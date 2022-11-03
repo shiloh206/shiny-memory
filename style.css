@@ -40,3 +40,9 @@ h1{
     float: center
 
 }
+
+.plane img{
+    display: inline;
+    width:20px;
+
+}
